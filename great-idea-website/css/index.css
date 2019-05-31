@@ -63,4 +63,124 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Your code starts here! */ 
+.container {
+	width: 875px;
+	margin: 0 auto;
+}
+header {
+	/* border-bottom: 1px solid black; */
+	padding-bottom: 30px
+}
+
+
+header nav {
+	position: fixed;
+	display: block;
+	background: rgba(221, 221, 221, .5);
+	height: 50px;
+}
+
+header nav a {
+	text-decoration: none;
+	text-align: center;
+	margin:0 30px;
+	color: #BFBFBF;
+}
+header nav a:hover {
+	color: #000000;
+}
+
+.header-container {
+	display:inline-block;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 20px;
+}
+
+header h1 {
+	font-size: 80px;
+	/* margin-top: 70px;
+	width: 400px */
+}
+.h1-container {
+	/* text-align: center; */
+	margin-top: 100px;
+	margin-right: 400px;
+}
+
+.header-container img {
+	margin-left: 490px;
+	margin-top: -330px;
+
+}
+
+header p {
+	border: 1px solid black;
+	display: inline-block;
+	margin-top: -10px;
+	padding: 5px 40px;
+	font-size: 20px;
+}
+
+main {
+	text-align: center;
+	padding-bottom: 30px;
+}
+section {
+	text-align: left;
+	display: inline-block;
+	line-height: 1.5;
+	margin: 0 auto;
+}
+section h2 {
+	font-size: 25px;
+}
+.middle-img {
+	display: block;
+	margin: 0 auto;
+}
+
+.top-sec {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.top-sec section {
+	width: 48%;
+}
+
+#features {
+	margin-right: 30px;
+	
+}
+
+.bottom-sec {
+	margin-top: 40px;
+}
+
+.bottom-sec section {
+	width: 31.5%;
+}
+#services {
+	margin-right: 20px;
+}
+
+#product {
+	margin-right: 20px;
+}
+footer {
+	margin-top: 20px;
+}
+
+footer h2 {
+	font-size: 25px;
+}
+
+footer p {
+	text-align: center;
+
+}
+footer address {
+	margin: 0px;
+	line-height: 2;
+} 
